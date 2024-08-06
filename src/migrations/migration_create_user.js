@@ -24,9 +24,13 @@ module.exports = {
         type: Sequelize.STRING
       },gender: {
         type: Sequelize.BOOLEAN
-      },typeRole: {
+      },image: {
         type: Sequelize.STRING
-      },keyRole: {
+      },phoneNumber: {
+        type: Sequelize.STRING
+      },roleId: {
+        type: Sequelize.STRING
+      },positionId: {
         type: Sequelize.STRING
       },
       createdAt: {
