@@ -7,6 +7,10 @@ let initWebRouter = (app)=>{
     router.get('/about', homeController.getAbout);
     router.get('/crud', homeController.getCRUD);
     router.post('/post-crud', homeController.postCRUD);
+    router.get('/display-crud', homeController.displayCRUD);
+    router.get('/edit-crud', homeController.getEditCRUD);
+    router.post('/put-crud', homeController.putCRUD);
+    router.get('/del-crud', homeController.getDelCRUD);
     
     return app.use("/", router);
 
